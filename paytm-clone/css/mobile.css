@@ -99,8 +99,9 @@
         line-height: 18px;
     }
     .promo-cto{
-        height: 30px;
+        height: 40px;
         padding: 10px;
+        font-weight: 600;
     }
     .promo-cto span{
         font-size: 12px;
@@ -143,6 +144,27 @@
     .bnb-service:nth-child(6),
     .bnb-service:nth-child(7){
         display: none;
+    }
+    .ppi{
+        padding: 40px;
+    }
+    .ppi > h1{
+        font-size: 26px;
+    }
+    .p-wallet, .ccs{
+        margin: 30px 0;
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+    .pw-info, .pw-hero-img{
+        width: 100%;
+    }
+    .pw-logo{
+        margin: 30px 0;
+    }
+    .pw-info h1{
+        font-size: 28px;
+        margin-bottom: 15px;
     }
 
 }
