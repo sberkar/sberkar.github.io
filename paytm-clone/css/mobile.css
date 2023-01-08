@@ -156,7 +156,7 @@
         flex-direction: column-reverse;
         padding: 0;
     }
-    .pw-info, .pw-hero-img{
+    .pw-info,.cc, .pw-hero-img{
         width: 100%;
     }
     .pw-logo{
@@ -166,7 +166,32 @@
         font-size: 28px;
         margin-bottom: 15px;
     }
-
+    .pw-info h1 br{
+        display: none;
+        margin-right: 5px;
+    }
+    .pw-info .promo-cto{
+        width: 50%;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .pw-promo-desc br{
+        display: none;
+    }
+    .postpaid_hero{
+        position: static;
+    }
+    .postpaid_hero img{
+        position: static;
+    }
+    .cc{
+        padding: 20px;
+    }
+    .cc-promo-desc br{
+       display: none; 
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -193,6 +218,12 @@
     }
     .payment-service:nth-child(5){
         display: none;
+    }
+    .pw-info .promo-cto{
+        width: 80%;
+    }
+    .postpaid_hero img{
+        position: static;
     }
 }
 @media screen and (max-width: 390px) {
