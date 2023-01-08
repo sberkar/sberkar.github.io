@@ -154,7 +154,7 @@
     .p-wallet, .ccs{
         margin: 30px 0;
         flex-direction: column-reverse;
-        padding: 0;
+        padding: 0 10px;
     }
     .pw-info,.cc, .pw-hero-img{
         width: 100%;

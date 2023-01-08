@@ -337,3 +337,35 @@ span, a, h1, h2, h3, h4, h5, div, h6{
 .sbi_paytm{
     margin-top: 50px;
 }
+
+.footer{
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+}
+.footer--app-info{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+.footer--app-info h2{
+    width: 300px;
+}
+.footer--social{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+.footer .social-icon{
+    margin: 0 10px;
+}
+.brand-color{
+    width: 100%;
+    height: 10px;
+}
+.brand-color.light-blue{
+    background-color: #00afe3;
+}
+.brand-color.dark-blue{
+    background-color: #002970;
+}
