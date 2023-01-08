@@ -231,4 +231,7 @@
     .bnb-service:nth-child(4){
         display: none;
     }
+    .postpaid_hero img{
+        position: static;
+    }
 }
